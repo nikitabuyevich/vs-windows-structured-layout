@@ -6,5 +6,6 @@
 
 // Libraries
 #include <foo/bar.h>
+#include <bar/foo.h>
 
 #endif //PCH_H

@@ -14,13 +14,22 @@ The design of this structure has been made to be as intuitive as possible. Thing
 
 ## Getting Started
 
+### Running hello.exe
+
+Build the solution and place `bar's` compiled DLL into the same directory as `hello's`.
+
+Example:
+
+- Build the solution in `Debug` mode with `x86`
+- Copy `bar.dll` from `bin\bar\Debug\Win32\bar.dll`
+- Paste `bar.dll` to `bin\hello\Debug\Win32\`
+
 ### Install Templates
 
 - Place the all the files located in the `templates` directory inside `%USERPROFILE%\Documents\Visual Studio <version>\Templates\ProjectTemplates\Visual C++ Project`
 - Restart `Visual Studio`
 - Now create a new project
 - In the new project view, change your filters to `C++` and the project type to `Structured`
-
 
 ![New Project View](./img/new_project.png "New Project View")
 
@@ -31,7 +40,6 @@ In order to disable Visual Studio's filters and use the physical files located o
 You'll need to do this `every time` you create a `new structured project`.
 
 ![Show All Files](./img/show_all_files.png "Show All Files")
-
 
 ![Showing All Files](./img/showing_all_files.png "Showing All Files")
 

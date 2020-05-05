@@ -1,5 +1,5 @@
-#ifndef BAR_FOO_H_
-#define BAR_FOO_H_
+#ifndef BAR_FOO_H
+#define BAR_FOO_H
 
 // TODO: If you wish to change DLLTEMPLATE_EXPORTS
 // to something else, make sure you update the
@@ -19,5 +19,5 @@ namespace bar
 }
 
 
-#endif //BAR_FOO_H_
+#endif //BAR_FOO_H
 

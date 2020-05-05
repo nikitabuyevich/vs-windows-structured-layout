@@ -1,5 +1,5 @@
-#ifndef FOO_BAR_H_
-#define FOO_BAR_H_
+#ifndef FOO_BAR_H
+#define FOO_BAR_H
 
 // Some static library
 namespace foo
@@ -9,5 +9,5 @@ namespace foo
 }
 
 
-#endif //FOO_BAR_H_
+#endif //FOO_BAR_H
 
